@@ -1,5 +1,27 @@
 .nav-list {
 
     list-style: none;
+    display: flex;
+    
+    gap: 20px;
+    
 
+}
+
+
+
+.nav-content {
+    display: flex;
+    font-size: 18x;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic sans ms", sans serif;
+}
+
+.nav-content h3 {
+    letter-spacing: 2px;
+    color: wheat;
+    
 }
