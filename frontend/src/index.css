@@ -1,0 +1,9 @@
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(21, 19, 19);
+}
+
