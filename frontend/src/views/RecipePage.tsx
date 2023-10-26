@@ -1,8 +1,11 @@
+import Header from "../components/header"
 
 
 export const RecipePage = () => {
   return (
 
-    <div><h1>RecipePage</h1></div>
+    <>
+    <Header selectedPage="recipes" fontSize={22} />
+    </>
   )
 }

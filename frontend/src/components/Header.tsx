@@ -1,17 +1,15 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
 
-const Header = (props: { fontSize: number; selectedPage?: string }) => {
+const Header = (props: { fontSize?: number; selectedPage?: string }) => {
   const getLinkColor = (currentSelectedPage: string) =>
     props.selectedPage === currentSelectedPage ? "grey" : "wheat";
 
   return (
     <>
-      <header style={{fontSize:props.fontSize}}>
+      <header style={{ fontSize: props.fontSize }}>
         <nav className="nav-content">
-          <h3>
-            Ryan's underground kitchen
-          </h3>
+          <h3>Ryan's underground kitchen</h3>
           <ul className="nav-list">
             <li
               style={{
@@ -35,7 +33,6 @@ const Header = (props: { fontSize: number; selectedPage?: string }) => {
               <Link to={"/about"}>About us</Link>
             </li>
           </ul>
-          
         </nav>
       </header>
     </>
