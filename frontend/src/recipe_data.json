@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "name": "Pancakes",
+    "ingredients": ["Eggs", "Milk", "Sugar"],
+    "description": "Recipe for standard pancakes",
+    "instructions": ["", ""],
+    "EstimatedCookingTime": "30 minutes"
+  },
+
+  { 
+
+
+  }
+]
