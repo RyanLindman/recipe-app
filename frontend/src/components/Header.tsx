@@ -9,7 +9,7 @@ const Header = (props: { fontSize?: number; selectedPage?: string }) => {
     <>
       <header style={{ fontSize: props.fontSize }}>
         <nav className="nav-content">
-          <h3>Ryan's underground kitchen</h3>
+          <h3 style={{textTransform:"uppercase"}}>Ryan's underground kitchen</h3>
           <ul className="nav-list">
             <li
               style={{

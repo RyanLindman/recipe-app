@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import '../HomePage.css'
+import "../HomePage.css";
 
 const HomePage = () => {
   const responsive = {
@@ -27,19 +27,66 @@ const HomePage = () => {
   return (
     <>
       <Header fontSize={22} selectedPage="HomePage" />
-      
+
       <div className="carousel">
-      <h1 style={{color:"wheat"}}>Featured recipes</h1>
-        <Carousel responsive={responsive} containerClass="carousel" centerMode slidesToSlide={4}>
-          <div>Item 1</div>
-          <div>Item 2</div>
-          <div>Item 3</div>
-          <div>Item 4</div>
-          <div>Item 5</div>
-          <div>Item 6</div>
-          
+        <h1 style={{ color: "wheat" }}>featured recipes</h1>
+        <Carousel
+          responsive={responsive}
+          containerClass="carousel"
+          centerMode
+          slidesToSlide={2}
+        >
+          <div className="card">
+            <img
+              src="../pancakes.jpg"
+              alt="recipe-image"
+              className="recipe-image"
+            />
+            <h3>Swedish Pancakes</h3>
+            <p>The swedish favorite! <br /> Easy and quick to make</p>
+            <button>Go to recipe</button>
+          </div>
+          <div><img
+              src="../pizza.jpg"
+              alt="recipe-image"
+              className="recipe-image"
+            />
+            <h3>Mozarella Pizza</h3>
+            <p>The italian go-to <br /> Got an oven? Lets go!</p>
+            <button>Go to recipe</button></div>
+          <div><img
+              src="../carbonara.jpg"
+              alt="recipe-image"
+              className="recipe-image"
+            />
+            <h3>Pasta Carbonara</h3>
+            <p>The swedish favorite! <br /> Easy and quick to make.</p>
+            <button>Go to recipe</button></div>
+          <div><img
+              src="../pancakes.jpg"
+              alt="recipe-image"
+              className="recipe-image"
+            />
+            <h3>Swedish Pancakes</h3>
+            <p>The swedish favorite! <br /> Easy and quick to make.</p>
+            <button>Go to recipe</button></div>
+          <div><img
+              src="../pancakes.jpg"
+              alt="recipe-image"
+              className="recipe-image"
+            />
+            <h3>Swedish Pancakes</h3>
+            <p>The swedish favorite! <br /> Easy and quick to make.</p>
+            <button>Go to recipe</button></div>
+          <div><img
+              src="../pancakes.jpg"
+              alt="recipe-image"
+              className="recipe-image"
+            />
+            <h3>Swedish Pancakes</h3>
+            <p>The swedish favorite! <br /> Easy and quick to make.</p>
+            <button>Go to recipe</button></div>
         </Carousel>
-        
       </div>
     </>
   );

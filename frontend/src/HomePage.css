@@ -13,4 +13,23 @@
 .carousel h1 {
     text-align: center;
     font-size: 22px;
+    font-variant: small-caps;
+}
+
+img {
+    object-fit: cover;
+  height: max(10rem, 30vh);
+  border-radius: 10px;
+}
+
+.carousel button {
+    
+    padding: 8px;
+    font-family: "Comic sans ms";
+    transition: all ease 0.3s;
+    
+}
+
+.carousel button:hover {
+    background-color: wheat;
 }
