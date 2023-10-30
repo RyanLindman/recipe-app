@@ -6,6 +6,7 @@ import { RecipePage } from "./views/RecipePage.tsx";
 import HomePage  from "./views/HomePage.tsx";
 import AboutPage from "./views/AboutPage.tsx";
 
+
 const router = createBrowserRouter([
   {
     path: "/recipes",

@@ -39,4 +39,4 @@ const Header = (props: { fontSize?: number; selectedPage?: string }) => {
   );
 };
 
-export default Header;
+export default Header
