@@ -68,8 +68,7 @@ const Slider = () => {
           />
           <h3>Pasta Carbonara</h3>
           <p>
-            The pasta dish we all love <br /> Al dente or well cooked? Your
-            choice!
+            The pasta dish we all love <br /> Al dente or well cooked? You decide
           </p>
           <button>Go to recipe</button>
         </div>

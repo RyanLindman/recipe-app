@@ -10,14 +10,18 @@ const AboutPage = () => {
       </div>
       <div className="main-container">
         <div className="story-container">
-          <h1 style={{textTransform:"uppercase"}}>Our Story</h1>
+          <h1 style={{ textTransform: "uppercase" }}>Our Story</h1>
         </div>
 
         <div className="newsletter-container">
-          <h1 style={{textTransform:"uppercase"}}>Subscribe to our newsletter</h1>
-          <h4 style={{fontStyle:"italic"}}>
-            Recieve updates our kitchen and be the first one to try out new
-            recipes!
+          <h1 style={{ textTransform: "uppercase" }}>Get Our newsletter</h1>
+          <h4 style={{ fontStyle: "italic" }}>
+            <p>
+              Recieve important updates on our kitchen and be the first one{" "}
+              <br /> to try out new recipes! Exclusive offers on rare recipes
+              can occur. <br />
+              Don't miss out!
+            </p>
           </h4>
         </div>
       </div>
