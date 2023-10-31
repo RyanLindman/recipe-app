@@ -6,8 +6,8 @@
     padding: 30px;
     margin: 10px;
     font-family: "Comic sans ms";
+    border-radius: 10px;
 
-    
 }
 
 .carousel h1 {
@@ -27,6 +27,8 @@ img {
     padding: 8px;
     font-family: "Comic sans ms";
     transition: all ease 0.3s;
+    cursor: pointer;
+    font-weight: 600;
     
 }
 

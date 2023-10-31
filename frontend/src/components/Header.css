@@ -1,27 +1,37 @@
 .nav-list {
+  list-style: none;
+  display: flex;
 
-    list-style: none;
-    display: flex;
-    
-    gap: 20px;
-    
-
+  gap: 45px;
 }
-
-
 
 .nav-content {
-    display: flex;
-    font-size: 18x;
-    width: 100%;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
-    font-family: "Comic sans ms", sans serif;
+  display: flex;
+  font-family: "Comic sans ms";
 }
 
-.nav-content h3 {
-    letter-spacing: 2px;
-    color: wheat;
-    
+.logo-content {
+  display: flex;
+  font-size: 18x;
+  width: 70%;
+
+  margin: 0;
+  padding: 0;
+  font-family: "Comic sans ms", sans serif;
+}
+
+.logo-content h3 {
+  letter-spacing: 2px;
+  color: wheat;
+}
+
+#logo {
+  border-radius: 100px;
+  height: 70px;
+  margin: 2px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
 }

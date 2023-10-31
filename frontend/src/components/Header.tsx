@@ -8,8 +8,13 @@ const Header = (props: { fontSize?: number; selectedPage?: string }) => {
   return (
     <>
       <header style={{ fontSize: props.fontSize }}>
-        <nav className="nav-content">
-          <h3 style={{textTransform:"uppercase"}}>Ryan's underground kitchen</h3>
+        <nav className="logo-content">
+          <img src="logo.png" alt="logo" id="logo" />
+          <h3 style={{ textTransform: "uppercase" }}>
+            Ryan's underground kitchen
+          </h3>
+        </nav>
+        <div className="nav-content">
           <ul className="nav-list">
             <li
               style={{
@@ -33,10 +38,10 @@ const Header = (props: { fontSize?: number; selectedPage?: string }) => {
               <Link to={"/about"}>About us</Link>
             </li>
           </ul>
-        </nav>
+        </div>
       </header>
     </>
   );
 };
 
-export default Header
+export default Header;
