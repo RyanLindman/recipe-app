@@ -9,7 +9,27 @@
   },
   { 
     "id": 2,
-    "name": "Pancakes",
+    "name": "Mozarella Pizza",
+    "ingredients": ["Eggs", "Milk", "Sugar"],
+    "description": "Recipe for standard pancakes",
+    "instructions": ["", ""],
+    "EstimatedCookingTime": "30 minutes"
+
+
+  },
+  { 
+    "id": 3,
+    "name": "Pasta Carbonara",
+    "ingredients": ["Eggs", "Milk", "Sugar"],
+    "description": "Recipe for standard pancakes",
+    "instructions": ["", ""],
+    "EstimatedCookingTime": "30 minutes"
+
+
+  }, 
+  { 
+    "id": 4,
+    "name": "Classic Lasagne",
     "ingredients": ["Eggs", "Milk", "Sugar"],
     "description": "Recipe for standard pancakes",
     "instructions": ["", ""],

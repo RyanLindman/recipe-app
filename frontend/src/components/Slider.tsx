@@ -1,8 +1,9 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { Link } from "react-router-dom";
+import recipe_data from '../recipe_data.json'
 
 const Slider = () => {
-    
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -60,7 +61,9 @@ const Slider = () => {
           </p>
           <button>Go to recipe</button>
         </div>
-        <div>
+        {recipe_data.map((recipe) => (
+            
+        <div key={recipe.id}>
           <img
             src="../carbonara.jpg"
             alt="recipe-image"
@@ -68,10 +71,17 @@ const Slider = () => {
           />
           <h3>Pasta Carbonara</h3>
           <p>
-            The pasta dish we all love <br /> Al dente or well cooked? You decide
+            The pasta dish we all love <br /> Al dente or well cooked? You
+            decide
           </p>
-          <button>Go to recipe</button>
+
+          <Link to={`/recipes/${recipe.id}`}>
+            <button>Go to recipe</button>
+          </Link>
         </div>
+
+        )
+        )}
         <div>
           <img
             src="../lasagne.jpg"
