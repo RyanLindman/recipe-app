@@ -16,7 +16,7 @@
     font-variant: small-caps;
 }
 
-img {
+.carousel img {
     object-fit: cover;
   height: max(10rem, 30vh);
   border-radius: 10px;
