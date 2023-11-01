@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import "../AboutPage.css";
-import InputField from "../components/InputField";
+import NewsletterForm from "../components/NewsletterForm";
 
 
  
@@ -36,14 +36,7 @@ const AboutPage = () => {
              <br /> Don't miss out!
             </p>
           </h4>
-
-          <div>
-            <form className="newsletter-form">
-              <label htmlFor="email" />
-              <InputField type="email" id="email" placeholder="Email" />
-            </form>
-
-          </div>
+          <NewsletterForm />
         </div>
       </div>
     </>

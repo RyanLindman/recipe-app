@@ -1,4 +1,14 @@
-function Input(props: { label?: any; type: any; id: any; placeholder: any }) {
+
+
+function Input(props: {
+  label?: any;
+  type: any;
+  id: any;
+  placeholder: any;
+  value?: any;
+  onChange: any;
+  error?: any;
+}) {
   return (
     <div>
       <div>
@@ -7,7 +17,10 @@ function Input(props: { label?: any; type: any; id: any; placeholder: any }) {
           id={props.id}
           type={props.type}
           placeholder={props.placeholder}
+          onChange={props.onChange}
+
         />
+        {props.error && <span className="error">{props.error}</span>}
       </div>
     </div>
   );
