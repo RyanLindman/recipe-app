@@ -6,7 +6,7 @@ function Input(props: {
   id: any;
   placeholder: any;
   value?: any;
-  onChange: any;
+  onChange?: any;
   error?: any;
 }) {
   return (
