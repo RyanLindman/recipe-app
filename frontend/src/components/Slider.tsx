@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Link } from "react-router-dom";
-import recipe_data from '../recipe_data.json'
+import recipe_data from "../recipe_data.json";
 
 const Slider = () => {
   const responsive = {
@@ -24,6 +24,7 @@ const Slider = () => {
       breakpoint: { max: 1024, min: 464 },
       items: 2,
       slidesToSlide: 2,
+      centerMode: false,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -41,84 +42,21 @@ const Slider = () => {
         containerClass="carousel"
         slidesToSlide={2}
       >
-        <div className="card">
-          <img
-            src="../pancakes.jpg"
-            alt="recipe-image"
-            className="recipe-image"
-          />
-          <h3>Swedish Pancakes</h3>
-          <p>
-            The swedish favorite! <br /> Easy and quick to make
-          </p>
-          <button>Go to recipe</button>
-        </div>
-        <div>
-          <img src="../pizza.jpg" alt="recipe-image" className="recipe-image" />
-          <h3>Mozarella Pizza</h3>
-          <p>
-            The italian go-to <br /> Got an oven? Lets go!
-          </p>
-          <button>Go to recipe</button>
-        </div>
         {recipe_data.map((recipe) => (
-            
-        <div key={recipe.id}>
-          <img
-            src="../carbonara.jpg"
-            alt="recipe-image"
-            className="recipe-image"
-          />
-          <h3>Pasta Carbonara</h3>
-          <p>
-            The pasta dish we all love <br /> Al dente or well cooked? You
-            decide
-          </p>
+          <div key={recipe.id} className="card">
+            <img
+              src={recipe.ImagePath}
+              alt="recipe-image"
+              className="recipe-image"
+            />
+            <h3>{recipe.name}</h3>
+            <p>{recipe.description}</p>
 
-          <Link to={`/recipes/${recipe.id}`}>
-            <button>Go to recipe</button>
-          </Link>
-        </div>
-
-        )
-        )}
-        <div>
-          <img
-            src="../lasagne.jpg"
-            alt="recipe-image"
-            className="recipe-image"
-          />
-          <h3>Classic Lasagne</h3>
-          <p>
-            Highly praised amongst many food lovers <br /> Not the quickest to
-            make, though
-          </p>
-          <button>Go to recipe</button>
-        </div>
-        <div>
-          <img
-            src="../pancakes.jpg"
-            alt="recipe-image"
-            className="recipe-image"
-          />
-          <h3>Swedish Pancakes</h3>
-          <p>
-            The swedish favorite! <br /> Easy and quick to make.
-          </p>
-          <button>Go to recipe</button>
-        </div>
-        <div>
-          <img
-            src="../pancakes.jpg"
-            alt="recipe-image"
-            className="recipe-image"
-          />
-          <h3>Swedish Pancakes</h3>
-          <p>
-            The swedish favorite! <br /> Easy and quick to make.
-          </p>
-          <button>Go to recipe</button>
-        </div>
+            <Link to={`/recipes/${recipe.id}`}>
+              <button>Go to recipe</button>
+            </Link>
+          </div>
+        ))}
       </Carousel>
     </div>
   );

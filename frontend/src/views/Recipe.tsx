@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import Header from "../components/Header";
 import recipe_data from '../recipe_data.json';
+import './Recipe.css'
 
 
 const Recipe = () => {
@@ -17,7 +18,7 @@ const Recipe = () => {
     <div className="recipe-container">
         <Header fontSize={22} />
     
-      <div>
+      <div className="recipe-id">
         <h2>Enjoy our free recipes!</h2>
         <h4>{recipe.name}</h4>
         <h6>{recipe.description}</h6>

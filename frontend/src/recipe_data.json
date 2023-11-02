@@ -1,19 +1,40 @@
 [
   {
     "id": 1,
-    "name": "Pancakes",
+    "name": "Swedish Pancakes",
     "ingredients": ["Eggs", "Milk", "Sugar"],
     "description": "Recipe for swedish pancakes",
     "instructions": ["", ""],
-    "EstimatedCookingTime": "30 minutes"
+    "EstimatedCookingTime": "30 minutes",
+    "ImagePath" : "pancakes.jpg"
+
+
   },
   { 
     "id": 2,
     "name": "Mozarella Pizza",
-    "ingredients": ["Eggs", "Milk", "Sugar"],
-    "description": "Recipe for standard pancakes",
-    "instructions": ["", ""],
-    "EstimatedCookingTime": "30 minutes"
+    "ingredients": [
+      "Pizza dough (store-bought or homemade)",
+      "1/2 cup tomato sauce",
+      "2 cups shredded mozzarella cheese",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt and pepper"
+    ],
+    "description": "The popular italian go-to!",
+    "instructions": [
+      "Preheat your oven to the highest temperature (usually around 500°F or 260°C).",
+      "Roll out the pizza dough on a floured surface to your desired thickness.",
+      "Transfer the rolled-out dough to a pizza stone or baking sheet.",
+      "Spread the tomato sauce evenly over the dough, leaving a border for the crust.",
+      "Sprinkle the shredded mozzarella cheese evenly over the sauce.",
+      "Season with salt and pepper to taste.",
+      "Drizzle a little olive oil over the pizza.",
+      "Bake in the preheated oven for 10-12 minutes or until the crust is golden and the cheese is bubbly and slightly browned.",
+      "Remove from the oven, top with fresh basil leaves, slice, and enjoy your Mozzarella Pizza!"
+    ],
+    "EstimatedCookingTime": "30 minutes",
+    "ImagePath" : "pizza.jpg"
 
 
   },
@@ -23,7 +44,8 @@
     "ingredients": ["Eggs", "Milk", "Sugar"],
     "description": "Recipe for standard pancakes",
     "instructions": ["", ""],
-    "EstimatedCookingTime": "30 minutes"
+    "EstimatedCookingTime": "30 minutes",
+    "ImagePath" : "carbonara.jpg"
 
 
   }, 
@@ -33,8 +55,62 @@
     "ingredients": ["Eggs", "Milk", "Sugar"],
     "description": "Recipe for standard pancakes",
     "instructions": ["", ""],
-    "EstimatedCookingTime": "30 minutes"
+    "EstimatedCookingTime": "30 minutes",
+    "ImagePath" : "lasagne.jpg"
+  },
+    
+  {
+    "id": 5,
+    "name": "Chicken Alfredo Pasta",
+    "ingredients": [
+      "8 oz fettuccine pasta",
+      "2 boneless, skinless chicken breasts",
+      "2 tablespoons olive oil",
+      "2 cloves garlic, minced",
+      "1 cup heavy cream",
+      "1 cup grated Parmesan cheese",
+      "1/2 cup butter",
+      "Salt and pepper to taste",
+      "Fresh parsley, chopped (for garnish)"
+    ],
+    "instructions": [
+      "Cook the fettuccine pasta according to the package instructions. Drain and set aside.",
+      "Season the chicken breasts with salt and pepper. In a large skillet, heat the olive oil over medium-high heat. Cook the chicken for about 6-7 minutes per side, or until it's no longer pink in the center. Remove the chicken from the skillet and slice it into strips.",
+      "In the same skillet, add minced garlic and sauté for a minute. Then, add the heavy cream, Parmesan cheese, and butter. Stir continuously until the sauce is smooth and creamy.",
+      "Add the cooked fettuccine and chicken strips to the skillet. Toss everything together to coat with the sauce.",
+      "Serve hot, garnished with chopped fresh parsley."
+    ],
 
+    "description" : "New recipe! Now extra creamy and cheesy",
+    "EstimatedCookingTime" : "35-45 minutes",
+    "ImagePath" :"alfredo.jpg"
 
+  },
+
+  {
+    "id": 6,
+      "name": "Vegetable Stir-Fry",
+      "ingredients": [
+        "2 cups mixed vegetables (e.g., bell peppers, broccoli, carrots, snap peas)",
+        "1 tablespoon vegetable oil",
+        "2 cloves garlic, minced",
+        "1 tablespoon soy sauce",
+        "1 tablespoon oyster sauce",
+        "1 teaspoon sesame oil",
+        "1/2 teaspoon red pepper flakes (adjust to taste)",
+        "Cooked rice or noodles (for serving)"
+      ],
+      "instructions": [
+        "Heat the vegetable oil in a wok or large skillet over high heat.",
+        "Add the minced garlic and stir-fry for about 30 seconds until fragrant.",
+        "Add the mixed vegetables and stir-fry for 3-4 minutes until they are tender-crisp.",
+        "In a small bowl, mix together soy sauce, oyster sauce, sesame oil, and red pepper flakes.",
+        "Pour the sauce over the vegetables and stir-fry for an additional 2 minutes.",
+        "Serve the vegetable stir-fry over cooked rice or noodles."
+      ],
+      "description" : "Veggie? Try this!",
+      "EstimatedCookingTime" : "20 minutes",
+      "ImagePath" : "vegetableStirFry.jpg"
   }
 ]
+
