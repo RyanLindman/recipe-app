@@ -1,5 +1,4 @@
 import { useState } from "react";
-import InputField from "./InputField";
 
 const NewsletterForm = () => {
   const [email, setEmail] = useState("");
