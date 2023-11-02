@@ -6,9 +6,9 @@ import NewsletterForm from "../components/NewsletterForm";
  
 const AboutPage = () => {
 
-  const errors = {}
-
   
+
+
 
 
 

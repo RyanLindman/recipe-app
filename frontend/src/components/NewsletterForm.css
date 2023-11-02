@@ -1,0 +1,19 @@
+.newsletter-form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.newsletter-form button {
+
+    padding: 5px;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+
+}

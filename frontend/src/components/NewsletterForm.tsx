@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./NewsletterForm.css";
 
 const NewsletterForm = () => {
   const [email, setEmail] = useState("");
@@ -31,16 +32,24 @@ const NewsletterForm = () => {
           </h2>
         </div>
       ) : (
-        <form className="newsletter-form" onSubmit={handleSubmit}>
-          <label htmlFor="email" />
-          <input type="text" value={email} onChange={handleEmailChange} />
-          <button type="submit">Submit</button>
+        <form onSubmit={handleSubmit}>
+          <div className="newsletter-form">
+            <label htmlFor="email" />
+            <input
+              type="text"
+              value={email}
+              onChange={handleEmailChange}
+              placeholder="Email"
+            />
 
-          {!validEmail && (
-            <p className="form-error-msg" style={{ color: "tomato" }}>
-              Please enter a valid email
-            </p>
-          )}
+            <button type="submit">Submit</button>
+
+            {!validEmail && (
+              <span className="form-error-msg" style={{ color: "tomato" }}>
+                Not accepted: Please enter a valid email
+              </span>
+            )}
+          </div>
         </form>
       )}
     </div>
