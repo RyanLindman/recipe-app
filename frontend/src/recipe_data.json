@@ -1,4 +1,4 @@
-[
+[ 
   {
     "id": 1,
     "name": "Swedish Pancakes",
@@ -6,11 +6,9 @@
     "description": "Recipe for swedish pancakes",
     "instructions": ["", ""],
     "EstimatedCookingTime": "30 minutes",
-    "ImagePath" : "pancakes.jpg"
-
-
+    "ImagePath": "pancakes.jpg"
   },
-  { 
+  {
     "id": 2,
     "name": "Mozarella Pizza",
     "ingredients": [
@@ -34,31 +32,27 @@
       "Remove from the oven, top with fresh basil leaves, slice, and enjoy your Mozzarella Pizza!"
     ],
     "EstimatedCookingTime": "30 minutes",
-    "ImagePath" : "pizza.jpg"
-
-
+    "ImagePath": "pizza.jpg"
   },
-  { 
+  {
     "id": 3,
     "name": "Pasta Carbonara",
     "ingredients": ["Eggs", "Milk", "Sugar"],
     "description": "Recipe for standard pancakes",
     "instructions": ["", ""],
     "EstimatedCookingTime": "30 minutes",
-    "ImagePath" : "carbonara.jpg"
-
-
-  }, 
-  { 
+    "ImagePath": "carbonara.jpg"
+  },
+  {
     "id": 4,
     "name": "Classic Lasagne",
     "ingredients": ["Eggs", "Milk", "Sugar"],
     "description": "Recipe for standard pancakes",
     "instructions": ["", ""],
     "EstimatedCookingTime": "30 minutes",
-    "ImagePath" : "lasagne.jpg"
+    "ImagePath": "lasagne.jpg"
   },
-    
+
   {
     "id": 5,
     "name": "Chicken Alfredo Pasta",
@@ -81,36 +75,44 @@
       "Serve hot, garnished with chopped fresh parsley."
     ],
 
-    "description" : "New recipe! Now extra creamy and cheesy",
-    "EstimatedCookingTime" : "35-45 minutes",
-    "ImagePath" :"alfredo.jpg"
-
+    "description": "New recipe! Now extra creamy and cheesy",
+    "EstimatedCookingTime": "35-45 minutes",
+    "ImagePath": "alfredo.jpg"
   },
 
   {
     "id": 6,
-      "name": "Vegetable Stir-Fry",
-      "ingredients": [
-        "2 cups mixed vegetables (e.g., bell peppers, broccoli, carrots, snap peas)",
-        "1 tablespoon vegetable oil",
-        "2 cloves garlic, minced",
-        "1 tablespoon soy sauce",
-        "1 tablespoon oyster sauce",
-        "1 teaspoon sesame oil",
-        "1/2 teaspoon red pepper flakes (adjust to taste)",
-        "Cooked rice or noodles (for serving)"
-      ],
-      "instructions": [
-        "Heat the vegetable oil in a wok or large skillet over high heat.",
-        "Add the minced garlic and stir-fry for about 30 seconds until fragrant.",
-        "Add the mixed vegetables and stir-fry for 3-4 minutes until they are tender-crisp.",
-        "In a small bowl, mix together soy sauce, oyster sauce, sesame oil, and red pepper flakes.",
-        "Pour the sauce over the vegetables and stir-fry for an additional 2 minutes.",
-        "Serve the vegetable stir-fry over cooked rice or noodles."
-      ],
-      "description" : "Veggie? Try this!",
-      "EstimatedCookingTime" : "20 minutes",
-      "ImagePath" : "vegetableStirFry.jpg"
+    "name": "Vegetable Stir-Fry",
+    "ingredients": [
+      "2 cups mixed vegetables (e.g., bell peppers, broccoli, carrots, snap peas)",
+      "1 tablespoon vegetable oil",
+      "2 cloves garlic, minced",
+      "1 tablespoon soy sauce",
+      "1 tablespoon oyster sauce",
+      "1 teaspoon sesame oil",
+      "1/2 teaspoon red pepper flakes (adjust to taste)",
+      "Cooked rice or noodles (for serving)"
+    ],
+    "instructions": [
+      "Heat the vegetable oil in a wok or large skillet over high heat.",
+      "Add the minced garlic and stir-fry for about 30 seconds until fragrant.",
+      "Add the mixed vegetables and stir-fry for 3-4 minutes until they are tender-crisp.",
+      "In a small bowl, mix together soy sauce, oyster sauce, sesame oil, and red pepper flakes.",
+      "Pour the sauce over the vegetables and stir-fry for an additional 2 minutes.",
+      "Serve the vegetable stir-fry over cooked rice or noodles."
+    ],
+    "description": "Veggie? Try this!",
+    "EstimatedCookingTime": "20 minutes",
+    "ImagePath": "vegetableStirFry.jpg"
+  },
+
+  {
+    "id": 7,
+    "name": "Margarita Pizza",
+    "ingredients": ["Eggs", "Milk", "Sugar"],
+    "description": "Recipe for standard pancakes",
+    "instructions": ["", ""],
+    "EstimatedCookingTime": "30 minutes",
+    "ImagePath": "lasagne.jpg"
   }
 ]
-

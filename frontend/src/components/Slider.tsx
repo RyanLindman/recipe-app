@@ -42,7 +42,7 @@ const Slider = () => {
         containerClass="carousel"
         slidesToSlide={2}
       >
-        {recipe_data.map((recipe) => (
+        {recipe_data.slice(0, 6).map((recipe) => (
           <div key={recipe.id} className="card">
             <img
               src={recipe.ImagePath}

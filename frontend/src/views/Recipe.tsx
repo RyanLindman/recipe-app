@@ -14,14 +14,18 @@ const Recipe = () => {
     return <div style={{color:"tomato"}}>Recipe not found</div>
   }
 
+
   return (
     <div className="recipe-container">
         <Header fontSize={22} />
-    
+     
       <div className="recipe-id">
         <h2>Enjoy our free recipes!</h2>
         <h4>{recipe.name}</h4>
         <h6>{recipe.description}</h6>
+        <div>
+          <p>{recipe.instructions}</p>
+        </div>
       </div>
     </div>
   );
