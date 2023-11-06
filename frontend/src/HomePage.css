@@ -45,11 +45,31 @@
 
 .welcome-msg {
     color: tomato;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .carousel {
+        background-color: #242424;
+        color: wheat;
+        padding: 0px;
+        margin: 0px;
+        font-family: "Comic sans ms";
+        border-radius: 10px;
+    }
+
+    .welcome-msg {
+        margin-top: 0px;
+        width: min-content;
+        
+    }
+    
+
+    
 }

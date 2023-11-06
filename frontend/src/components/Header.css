@@ -49,3 +49,18 @@ header {
 .nav-list li:hover {
 
 }
+
+@media only screen and (max-width: 600px) {
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+
+  }
+  .logo-content {
+    font-size: small;
+  }
+  
+
+}
