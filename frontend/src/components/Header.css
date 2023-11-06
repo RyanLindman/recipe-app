@@ -8,6 +8,7 @@
 .nav-content {
   display: flex;
   font-family: "Comic sans ms";
+  
 }
 
 .logo-content {
@@ -23,6 +24,7 @@
 .logo-content h3 {
   letter-spacing: 2px;
   color: wheat;
+  
 }
 
 #logo {
@@ -33,6 +35,17 @@
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
+  
+}
+
+
+.nav-list li {
+  
+  transition: all ease 0.3s;
+}
+
+.nav-list li:hover {
+
 }

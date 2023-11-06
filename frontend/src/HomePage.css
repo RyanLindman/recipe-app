@@ -42,3 +42,14 @@
 .carousel button:hover {
     background-color: wheat;
 }
+
+.welcome-msg {
+    color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
