@@ -53,9 +53,11 @@ header {
 @media only screen and (max-width: 600px) {
 
   .nav-list {
-    display: flex;
-    flex-direction: column;
+    
     font-size: small;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 
   }
   .logo-content {

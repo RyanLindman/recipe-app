@@ -2,6 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Link } from "react-router-dom";
 import recipe_data from "../recipe_data.json";
+import './Slider.css'
 
 const Slider = () => {
   const responsive = {
@@ -15,22 +16,31 @@ const Slider = () => {
       swipeable: false,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 3000, min: 1920 },
       items: 4,
       slidesToSlide: 2,
       centerMode: true,
     },
+
+    tabletXL: {
+      breakpoint: {max: 1920, min:1024},
+      items : 3, 
+      slidesToSlide: 3,
+      centerMode: false
+
+    },
+
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 1,
-      slidesToSlide: 1,
+      breakpoint: { max: 1024, min: 564 },
+      items: 2,
+      slidesToSlide: 2,
       centerMode: false,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 564, min: 0 },
       items: 1,
       slidesToSlide: 1,
-      centerMode: false,
+      
     },
   };
 
@@ -41,6 +51,7 @@ const Slider = () => {
         responsive={responsive}
         containerClass="carousel"
         slidesToSlide={2}
+        itemClass="card"
       >
         {recipe_data.slice(0, 6).map((recipe) => (
           <div key={recipe.id} className="card">

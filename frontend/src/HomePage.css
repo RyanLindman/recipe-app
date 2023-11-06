@@ -1,75 +1,67 @@
-
-
 .carousel {
-    background-color: #242424;
-    color: wheat;
-    padding: 30px;
-    margin: 10px;
-    font-family: "Comic sans ms";
-    border-radius: 10px;
-
+  background-color: #242424;
+  color: wheat;
+  padding: 30px;
+  margin: 10px;
+  font-family: "Comic sans ms";
+  border-radius: 10px;
 }
 
 .carousel h1 {
-    text-align: center;
-    font-size: 22px;
-    font-variant: small-caps;
-    letter-spacing: 1px;
+  text-align: center;
+  font-size: 22px;
+  font-variant: small-caps;
+  letter-spacing: 1px;
 }
 
 .carousel img {
-    object-fit: cover;
+  object-fit: cover;
   height: max(10rem, 30vh);
   width: 276px;
   border-radius: 10px;
 }
 
-
 .carousel button {
-    
-    padding: 8px;
-    font-family: "Comic sans ms";
-    transition: all ease 0.3s;
-    cursor: pointer;
-    font-weight: 600;
-    
+  padding: 8px;
+  font-family: "Comic sans ms";
+  transition: all ease 0.3s;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 .carousel p {
-    width: 250px;
+  width: 250px;
 }
 
 .carousel button:hover {
-    background-color: wheat;
+  background-color: wheat;
 }
 
 .welcome-msg {
-    color: tomato;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+  color: tomato;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 600px) {
+  .carousel {
+    padding: 5px;
+    margin: 0px;
+  }
 
-    .carousel {
-        background-color: #242424;
-        color: wheat;
-        padding: 0px;
-        margin: 0px;
-        font-family: "Comic sans ms";
-        border-radius: 10px;
-    }
+  .welcome-msg {
+    margin-top: 0px;
+    width: min-content;
+  }
+}
 
-    .welcome-msg {
-        margin-top: 0px;
-        width: min-content;
-        
-    }
-    
-
-    
+@media only screen and (max-width: 800px) {
+  .carousel {
+    padding: 5px;
+    margin: 0px;
+  }
 }
