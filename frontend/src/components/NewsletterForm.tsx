@@ -45,7 +45,7 @@ const NewsletterForm = () => {
             <button type="submit">Submit</button>
 
             {!validEmail && (
-              <span className="form-error-msg" style={{ color: "tomato" }}>
+              <span className="form-error-msg" style={{ color: "tomato", fontWeight: 600 }}>
                 Not accepted: Please enter a valid email
               </span>
             )}
