@@ -7,7 +7,7 @@ const Header = (props: { fontSize?: number; selectedPage?: string }) => {
 
   return (
     <>
-      <header style={{ fontSize: props.fontSize }}>
+      <header style={{ fontSize: props.fontSize }} className="header-content">
         <nav className="logo-content">
           <img src="logo.png" alt="logo" id="logo" />
           <h3 style={{ textTransform: "uppercase" }}>

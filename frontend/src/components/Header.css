@@ -39,6 +39,11 @@ header {
   flex-wrap: wrap;
   
 }
+.header-content {
+  margin: 10px;
+  padding: 10px;
+  
+}
 
 
 .nav-list li {
@@ -57,7 +62,7 @@ header {
     font-size: small;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 
   }
   .logo-content {
