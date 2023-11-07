@@ -1,1 +1,3 @@
-Recipe app with no css libraries. 
+Recipe app 
+React + TypeScript + Vite
+Vanilla CSS
