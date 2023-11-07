@@ -20,6 +20,7 @@
   border-radius: 10px;
   color: #242424;
   height: 350px;
+  width: 300px;
 
   text-align: center;
 }
@@ -64,4 +65,22 @@
 .newsletter-form button:hover {
   background-color: tomato;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-container {
+  
+    margin: 5px;
+    margin-top: 20px;
+  }
+
+  .gbg {
+    display: none;
+  }
+
+  #submit-btn {
+    
+    width: auto;
+  }
+
 }

@@ -7,7 +7,7 @@ const AboutPage = () => {
     <>
       <Header fontSize={22} selectedPage="about" />
       <div className="banner-image">
-        <img src="/göteborg.jpg" alt="story-img" />
+        <img src="/göteborg.jpg" alt="story-img" className="gbg" />
       </div>
       <div className="main-container">
         <div className="story-container">

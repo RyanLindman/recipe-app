@@ -1,0 +1,42 @@
+.main-container {
+  background-color: #242425;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.list ul {
+  gap: 20px;
+  list-style: none;
+}
+
+.recipe-img {
+  object-fit: cover;
+  height: max(10rem, 30vh);
+  width: 276px;
+  border-radius: 10px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .recipe-img {
+    height: max(5rem, 20vh);
+    width: 150px;
+    gap: 10px;
+  }
+
+  .main-container {
+    flex-direction: column;
+
+  }
+}

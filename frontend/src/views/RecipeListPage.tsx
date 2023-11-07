@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction, useState } from "react";
 import Header from "../components/Header";
-import "../RecipeList.css";
+import "./RecipeListPage.css";
 import Searchbar from "../components/Searchbar";
 import recipe_data from "../recipe_data.json";
 
@@ -48,7 +48,12 @@ export const RecipeListPage = (props: {
                       alt="recipe-image"
                       className="recipe-img"
                     />
-                    <h2>{item.name}</h2>
+                    
+                      <h2>{item.name}</h2>
+
+                    
+                    
+
                   </li>
                   <li></li>
                 </ul>
