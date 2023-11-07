@@ -7,8 +7,9 @@
 
 .nav-content {
   display: flex;
-  font-family: "Comic sans ms";
-  
+
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .logo-content {
@@ -18,13 +19,11 @@
 
   margin: 0;
   padding: 0;
-  font-family: "Comic sans ms", sans serif;
 }
 
 .logo-content h3 {
   letter-spacing: 2px;
   color: wheat;
-  
 }
 
 #logo {
@@ -37,37 +36,26 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 .header-content {
   margin: 10px;
   padding: 10px;
-  
 }
 
-
 .nav-list li {
-  
   transition: all ease 0.3s;
 }
 
 .nav-list li:hover {
-
 }
 
 @media only screen and (max-width: 600px) {
-
   .nav-list {
-    
     font-size: small;
     flex-wrap: wrap;
     justify-content: center;
-
-
   }
   .logo-content {
     font-size: small;
   }
-  
-
 }

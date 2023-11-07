@@ -6,13 +6,13 @@
     "description": "Recipe for swedish pancakes",
     "instructions": ["", ""],
     "EstimatedCookingTime": "30 minutes",
-    "ImagePath": "pancakes.jpg"
+    "ImagePath": "/pancakes.jpg"
   },
   {
     "id": 2,
     "name": "Mozarella Pizza",
     "ingredients": [
-      "Pizza dough (store-bought or homemade)",
+      "Pizza dough (store-bought or homemade) ",
       "1/2 cup tomato sauce",
       "2 cups shredded mozzarella cheese",
       "Fresh basil leaves",
@@ -21,18 +21,18 @@
     ],
     "description": "The popular italian go-to!",
     "instructions": [
-      "Preheat your oven to the highest temperature (usually around 500°F or 260°C).",
-      "Roll out the pizza dough on a floured surface to your desired thickness.",
-      "Transfer the rolled-out dough to a pizza stone or baking sheet.",
-      "Spread the tomato sauce evenly over the dough, leaving a border for the crust.",
-      "Sprinkle the shredded mozzarella cheese evenly over the sauce.",
-      "Season with salt and pepper to taste.",
-      "Drizzle a little olive oil over the pizza.",
-      "Bake in the preheated oven for 10-12 minutes or until the crust is golden and the cheese is bubbly and slightly browned.",
-      "Remove from the oven, top with fresh basil leaves, slice, and enjoy your Mozzarella Pizza!"
+      "Preheat your oven to the highest temperature (usually around 500°F or 260°C). ",
+      "Roll out the pizza dough on a floured surface to your desired thickness. ",
+      "Transfer the rolled-out dough to a pizza stone or baking sheet. ",
+      "Spread the tomato sauce evenly over the dough, leaving a border for the crust. ",
+      "Sprinkle the shredded mozzarella cheese evenly over the sauce. ",
+      "Season with salt and pepper to taste. ",
+      "Drizzle a little olive oil over the pizza. ",
+      "Bake in the preheated oven for 10-12 minutes or until the crust is golden and the cheese is bubbly and slightly browned. ",
+      "Remove from the oven, top with fresh basil leaves, slice, and enjoy your Mozarella Pizza. Brought to you by Ryans Underground Kitchen."
     ],
     "EstimatedCookingTime": "30 minutes",
-    "ImagePath": "pizza.jpg"
+    "ImagePath": "/pizza.jpg"
   },
   {
     "id": 3,
@@ -41,7 +41,7 @@
     "description": "Recipe for standard pancakes",
     "instructions": ["", ""],
     "EstimatedCookingTime": "30 minutes",
-    "ImagePath": "carbonara.jpg"
+    "ImagePath": "/carbonara.jpg"
   },
   {
     "id": 4,
@@ -50,7 +50,7 @@
     "description": "Recipe for standard pancakes",
     "instructions": ["", ""],
     "EstimatedCookingTime": "30 minutes",
-    "ImagePath": "lasagne.jpg"
+    "ImagePath": "/lasagne.jpg"
   },
 
   {
@@ -77,7 +77,7 @@
 
     "description": "New recipe! Now extra creamy and cheesy",
     "EstimatedCookingTime": "35-45 minutes",
-    "ImagePath": "alfredo.jpg"
+    "ImagePath": "/alfredo.jpg"
   },
 
   {
@@ -103,7 +103,7 @@
     ],
     "description": "Veggie? Try this!",
     "EstimatedCookingTime": "20 minutes",
-    "ImagePath": "vegetableStirFry.jpg"
+    "ImagePath": "/vegetableStirFry.jpg"
   },
 
   {
@@ -113,6 +113,6 @@
     "description": "Recipe for standard pancakes",
     "instructions": ["", ""],
     "EstimatedCookingTime": "30 minutes",
-    "ImagePath": "lasagne.jpg"
+    "ImagePath": "/lasagne.jpg"
   }
 ]

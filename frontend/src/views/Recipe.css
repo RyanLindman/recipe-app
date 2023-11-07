@@ -1,5 +1,64 @@
-.recipe-id {
-    color: wheat;
+#recipe-card-id {
+  display: flex;
+  flex-direction: column;
+  background-color: #242424;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  color: wheat;
+  
 }
 
+.recipe-id-header {
+  text-transform: uppercase;
+  font-size: medium;
+  color: tomato;
+  margin-bottom: 20px;
+}
 
+.recipe-read {
+  background-color: #faece2;
+  color: #242424;
+  width: 50%;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.recipe-inst {
+  margin-top: 10px;
+  line-height: 28px;
+  margin: 10px;
+}
+
+.ingredients {
+  margin: 10px;
+  font-size: larger;
+  font-weight: 200;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.estimated {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+#recipe-card-id img {
+    margin: 10px;
+  object-fit: cover;
+  height: max(8rem, 20vh);
+  
+  width: 276px;
+  border-radius: 10px;
+}
+
+.space {
+    height: 10px;
+}

@@ -22,8 +22,8 @@
 }
 
 .carousel button {
-  padding: 8px;
-  font-family: "Comic sans ms";
+  padding: 10px;
+  font-family: "Futura", sans-serif;
   transition: all ease 0.3s;
   cursor: pointer;
   font-weight: 600;
@@ -34,7 +34,9 @@
 }
 
 .carousel button:hover {
-  background-color: wheat;
+  background-color: tomato;
+  color: white;
+  font-style: oblique;
 }
 
 .welcome-msg {
@@ -45,6 +47,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 600px) {

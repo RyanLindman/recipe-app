@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import './NewsletterForm.css'
+
 const NewsletterForm = () => {
   const [email, setEmail] = useState("");
   const [validEmail, setValidEmail] = useState(true);
@@ -23,10 +25,10 @@ const NewsletterForm = () => {
   console.log(email);
 
   return (
-    <div>
+    <div className="email-success">
       {emailSubmitted ? (
         <div>
-          <h2 style={{ letterSpacing: "1px" }}>
+          <h2 style={{ letterSpacing: "1px", color:"green" }}>
             Email submitted successfully!
           </h2>
         </div>
@@ -45,7 +47,7 @@ const NewsletterForm = () => {
 
             {!validEmail && (
               <span className="form-error-msg" style={{ color: "tomato", fontWeight: 600 }}>
-                Not accepted: Please enter a valid email
+                Unvalid: Please enter a valid email
               </span>
             )}
           </div>
