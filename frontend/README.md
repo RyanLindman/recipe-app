@@ -1,6 +1,6 @@
 Recipe app 
 
-React 
++ React 
 + Vite  
 + TypeScript 
 + Vanilla CSS
