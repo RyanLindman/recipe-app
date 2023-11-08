@@ -8,9 +8,16 @@
 }
 
 .searchbar input {
-    padding: 15px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 5px;
     border: none;
+    width: 15%;
+    text-align: center;
+    font-size: medium;
+    
+    color: "#242424";
+    
     
 }
+
 

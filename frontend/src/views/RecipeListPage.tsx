@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import "./RecipeListPage.css";
 import Searchbar from "../components/Searchbar";
 import recipe_data from "../recipe_data.json";
+import CardHover from "../components/CardHover";
 
 export const RecipeListPage = (props: {
   setLikedRecipes?: Dispatch<SetStateAction<any>>;
@@ -28,14 +29,8 @@ export const RecipeListPage = (props: {
               <div className="list" key={item.id}>
                 <ul>
                   <li>
-                    <img
-                      src={item.ImagePath}
-                      alt="recipe-image"
-                      className="recipe-img"
-                    />
-                    <h2>{item.name}</h2>
+                    <CardHover item={item} /> {/* Pass the item data to CardHover */}
                   </li>
-                  <li></li>
                 </ul>
               </div>
             ))
@@ -43,19 +38,8 @@ export const RecipeListPage = (props: {
               <div className="list" key={item.id}>
                 <ul>
                   <li>
-                    <img
-                      src={item.ImagePath}
-                      alt="recipe-image"
-                      className="recipe-img"
-                    />
-                    
-                      <h2>{item.name}</h2>
-
-                    
-                    
-
+                    <CardHover item={item} /> {/* Pass the item data to CardHover */}
                   </li>
-                  <li></li>
                 </ul>
               </div>
             ))}

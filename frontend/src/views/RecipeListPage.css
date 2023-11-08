@@ -27,7 +27,6 @@
   color: white;
 }
 
-
 @media only screen and (max-width: 600px) {
   .recipe-img {
     height: max(5rem, 20vh);
@@ -37,6 +36,5 @@
 
   .main-container {
     flex-direction: column;
-
   }
 }

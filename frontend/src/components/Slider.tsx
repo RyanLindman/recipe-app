@@ -24,7 +24,7 @@ const Slider = () => {
 
     tabletXL: {
       breakpoint: {max: 1920, min:1024},
-      items : 3, 
+      items : 4, 
       slidesToSlide: 3,
       centerMode: false
 
