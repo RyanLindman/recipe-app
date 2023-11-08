@@ -13,7 +13,6 @@
 
   color: wheat;
   flex-wrap: wrap;
-  
 }
 
 .recipe-id-header {
@@ -52,22 +51,20 @@
   gap: 10px;
 }
 #recipe-card-id img {
-    margin: 10px;
+  margin: 10px;
   object-fit: cover;
   height: max(8rem, 20vh);
-  
-  
+
   width: auto;
   border-radius: 10px;
 }
 
 .space {
-    height: 10px;
+  height: 10px;
 }
 
 @media only screen and (max-width: 600px) {
-    #recipe-card-id img {
-        display: none;
-    }
-
+  #recipe-card-id img {
+    display: none;
+  }
 }
