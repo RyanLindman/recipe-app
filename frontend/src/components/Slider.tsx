@@ -64,7 +64,7 @@ const Slider = () => {
             <p>{recipe.description}</p>
 
             <Link to={`/recipes/${recipe.id}`}>
-              <button>Go to recipe</button>
+              <button className="goto-btn">Go to recipe</button>
             </Link>
           </div>
         ))}

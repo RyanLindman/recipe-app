@@ -1,3 +1,12 @@
+
+.goto-btn {
+    text-transform: uppercase;
+  font-weight: 600;
+  font-size: x-small;
+  border-radius: 5px;
+  border: none;
+}
+
 @media only screen and (max-width: 620px) {
     .card {
         display: flex;

@@ -23,10 +23,9 @@
 
 .carousel button {
   padding: 10px;
-  font-family: "Futura", sans-serif;
   transition: all ease 0.3s;
   cursor: pointer;
-  font-weight: 600;
+  
 }
 
 .carousel p {
