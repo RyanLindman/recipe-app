@@ -59,6 +59,8 @@ const Slider = () => {
               src={recipe.ImagePath}
               alt="recipe-image"
               className="recipe-image"
+              loading="lazy"
+              
             />
             <h3>{recipe.name}</h3>
             <p>{recipe.description}</p>

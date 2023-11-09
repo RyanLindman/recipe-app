@@ -13,13 +13,13 @@ const NewsletterForm = () => {
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    let emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+    let emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;  {/* validates email */}
     const isValid = emailRegex.test(email);
     console.log(isValid);
     setValidEmail(isValid);
 
     if (isValid) {
-      setEmailSubmitted(true);
+    setEmailSubmitted(true);  {/* based on true or false, render accordingly */ }
     }
   };
   console.log(email);

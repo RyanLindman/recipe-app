@@ -22,14 +22,18 @@ export const RecipeListPage = (props: {
     <>
       <Header selectedPage="recipes" fontSize={22} />
       <Searchbar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-
+      {/* Passing search input to SearchBar */}
       <div className="main-container">
+        {/* If no search query inputed: show all recipes. Else show: filtered recipes.
+         Achieved by conditional rendering. */}
+
         {searchQuery === ""
           ? recipe_data.map((item) => (
               <div className="list" key={item.id}>
                 <ul>
                   <li>
-                    <CardHover item={item} /> {/* Pass the item data to CardHover */}
+                    <CardHover item={item} />{" "}
+                    {/* Pass the item data to CardHover */}
                   </li>
                 </ul>
               </div>
@@ -38,7 +42,8 @@ export const RecipeListPage = (props: {
               <div className="list" key={item.id}>
                 <ul>
                   <li>
-                    <CardHover item={item} /> {/* Pass the item data to CardHover */}
+                    <CardHover item={item} />{" "}
+                    {/* Pass the item data to CardHover */}
                   </li>
                 </ul>
               </div>

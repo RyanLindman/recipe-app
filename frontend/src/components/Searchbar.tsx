@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Searchbar.css";
 
-const Searchbar = (props: { searchQuery: any; setSearchQuery: any }) => {
+const Searchbar = (props: { searchQuery: any; setSearchQuery: any }) => {   {/* passing the needed props */}
   return (
     <>
       <div className="searchbar">

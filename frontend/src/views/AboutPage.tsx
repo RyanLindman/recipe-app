@@ -27,7 +27,7 @@ const AboutPage = () => {
               <br /> Don't miss out!
             </p>
           </h4>
-          <NewsletterForm />
+          <NewsletterForm />  {/* inserting form component */}
         </div>
       </div>
     </>

@@ -7,7 +7,13 @@ import "./Recipe.css";
 
 const Recipe = () => {
   const { id } = useParams<{ id: string }>();
+  {
+    /* useParams hook for getting each unique item by Id */
+  }
   const navigate = useNavigate();
+  {
+    /* useNavigate hook, allows user to navigate backwards one step in this case, hence: -1 */
+  }
 
   const recipe = recipe_data.find(
     (item) => item.id === parseInt(id as string, 10)
@@ -24,7 +30,6 @@ const Recipe = () => {
   return (
     <div className="recipe-container">
       <Header fontSize={18} />
-
       <div id="recipe-card-id">
         <div className="recipe-id-header"></div>
         <div className="recipe-read">
@@ -46,8 +51,8 @@ const Recipe = () => {
             {recipe.ingredients.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
+            {/* mapping ingredients to a list */}
             <br />
-
             <div className="estimated">
               <p style={{ fontWeight: 600 }}>Estimated time:</p>
               <p>{recipe.EstimatedCookingTime}</p>
@@ -62,8 +67,7 @@ const Recipe = () => {
           </div>
         </div>
       </div>
-
-      <div className="space"></div>
+      <div className="space"></div> {/* quick fix for some extra spacing */}
     </div>
   );
 };
