@@ -35,17 +35,22 @@ const Recipe = () => {
           <img src={recipe.ImagePath} alt="recipe-img" />
 
           <div className="ingredients">
+            
             <p style={{ fontWeight: 600 }}>Ingredients</p>
+            <br />
             {recipe.ingredients.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
             <br />
+            
             <div className="estimated">
               <p style={{ fontWeight: 600 }}>Estimated time:</p>
               <p>{recipe.EstimatedCookingTime}</p>
             </div>
           </div>
+          <hr />
           <div className="recipe-inst">
+            <p style={{fontWeight:600, fontSize:"larger"}}>Do like this: </p>
             <p>{recipe.instructions}</p>
           </div>
         </div>

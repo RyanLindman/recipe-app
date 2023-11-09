@@ -68,11 +68,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .main-container {
+  .main-container, .story-container, .newsletter-container, .newsletter-form {
   
-    margin: 5px;
+    
     margin-top: 20px;
+    width: auto;
+    padding: 5px
   }
+
 
   .gbg {
     display: none;
