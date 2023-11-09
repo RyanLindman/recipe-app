@@ -35,12 +35,13 @@ const NewsletterForm = () => {
       ) : (
         <form onSubmit={handleSubmit} id="newsletter-form">
           <div className="newsletter-form">
-            <label htmlFor="email" />
             <input
               type="text"
               value={email}
               onChange={handleEmailChange}
               placeholder="Email"
+              name="email"
+              
             />
 
             <button type="submit" id="submit-btn">Submit</button>

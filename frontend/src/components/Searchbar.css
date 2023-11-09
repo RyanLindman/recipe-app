@@ -16,3 +16,14 @@
 
   color: "#242424";
 }
+
+@media only screen and (max-width:600px){
+
+  .searchbar input {
+
+    padding: 5px;
+    font-size: small;
+    width: 120px;
+  }
+
+}

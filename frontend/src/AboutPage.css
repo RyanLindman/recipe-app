@@ -1,5 +1,4 @@
 .main-container {
-  
   display: flex;
   justify-content: space-around;
   margin: 10px;
@@ -35,7 +34,6 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  
 }
 
 .newsletter-form {
@@ -57,7 +55,6 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  
 
   transition: all ease 0.3s;
 }
@@ -68,22 +65,20 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .main-container, .story-container, .newsletter-container, .newsletter-form {
-  
-    
+  .main-container,
+  .story-container,
+  .newsletter-container,
+  .newsletter-form {
     margin-top: 20px;
     width: auto;
-    padding: 5px
+    padding: 5px;
   }
-
 
   .gbg {
     display: none;
   }
 
   #submit-btn {
-    
     width: auto;
   }
-
 }

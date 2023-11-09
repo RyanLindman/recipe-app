@@ -10,6 +10,7 @@ const Searchbar = (props: { searchQuery: any; setSearchQuery: any }) => {
           placeholder="search your favorite recipe"
           value={props.searchQuery}
           onChange={(e) => props.setSearchQuery(e.target.value)}
+          name="search"
         />
       </div>
     </>

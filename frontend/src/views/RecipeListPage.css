@@ -14,7 +14,7 @@
   list-style: none;
 }
 
-.recipe-img {
+.test-image {
   object-fit: cover;
   height: max(10rem, 30vh);
   width: 276px;
@@ -28,13 +28,33 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .recipe-img {
-    height: max(5rem, 20vh);
-    width: 150px;
+  .test-image {
+    height: max(10rem, 20vh);
+    width: auto;
     gap: 10px;
+    object-fit: none
+    
   }
+
 
   .main-container {
     flex-direction: column;
+    width: auto;
+    padding: 5px;
+
   }
+  .test-container {
+    width: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .test-container img {
+    width: auto;
+    height: max(5rem, 20vh);
+  }
+  
 }

@@ -50,6 +50,21 @@
   cursor: pointer;
 }
 
+.test-container:active .test-image {
+  opacity: 0.3;
+}
+
+.test-container:active .middle {
+  opacity: 1;
+  cursor: pointer;
+}
+.hover-btn:active {
+  background-color: tomato;
+}
+.text:active {
+  background-color: tomato;
+}
+
 .text {
   color: white;
   font-size: 16px;
